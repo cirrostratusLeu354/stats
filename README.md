@@ -1,6 +1,7 @@
 <!--takatime-start-->
-
-<h2 align="center">TakaTime Weekly Report</h2>
+  
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<h2 align="font-bold">TakaTime Weekly Report</h2>
 
 <p align="center">
   <img src="./public/taka-time.png" width="100%" alt="Time Stats" /><br/>
