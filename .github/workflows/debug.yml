@@ -1,3 +1,0 @@
-run: |
-  echo $TARGET_REPO
-  ./taka-report
