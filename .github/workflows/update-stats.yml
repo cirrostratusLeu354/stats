@@ -25,4 +25,4 @@ jobs:
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
           GIST_TOKEN: ${{ github.token }}
-        run: TARGET_REPO=${{ github.repository }} && echo "$TARGET_REPO" && ./taka-report -days=7 -bg "#2e3440" -text "#d8dee9" -subtext "#4c566a" -bar-bg "#3b4252" -c1 "#88c0d0" -c2 "#a3be8c" -c3 "#81a1c1" -c4 "#bf616a"
+        run: export TARGET_REPO=${{ github.repository }} && echo "$TARGET_REPO" && ./taka-report -days=7 -bg "#2e3440" -text "#d8dee9" -subtext "#4c566a" -bar-bg "#3b4252" -c1 "#88c0d0" -c2 "#a3be8c" -c3 "#81a1c1" -c4 "#bf616a"
