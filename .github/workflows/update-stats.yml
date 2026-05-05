@@ -1,0 +1,28 @@
+name: Update TakaTime Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download --repo Rtarun3606k/TakaTime \
+          --pattern "taka-report-linux-amd64" \
+          --output taka-report
+          chmod +x taka-report
+
+      - name: Run
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+          TARGET_REPO: ${{ github.repository }}
+        run: ./taka-report -days=7
