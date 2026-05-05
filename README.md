@@ -3,12 +3,12 @@
 <h2 align="font-bold">TakaTime Weekly Report</h2>
 
 <p style="display: grid; gap: 0px;">
-  <img src="./public/taka-time.png"        height="300px" width="100%" alt="Time Stats" />
-  <img src="./public/taka-languages30.png"  height="300px" width="100%" alt="Languages" />
-  <img src="./public/taka-projects30.png"   height="300px" width="100%" alt="Projects" />
-  <img src="./public/taka-languages.png"    height="300px" width="100%" alt="Languages" />
-  <img src="./public/taka-projects.png"     height="300px" width="100%" alt="Projects" />
-  <img src="./public/taka-tech.png"        height="300px" width="100%" alt="Tech Stack" />
+  <img src="./public/taka-time.png"        height="250px" width="100%" alt="Time Stats" />
+  <img src="./public/taka-languages30.png"  height="250px" width="100%" alt="Languages" />
+  <img src="./public/taka-projects30.png"   height="250px" width="100%" alt="Projects" />
+  <img src="./public/taka-languages.png"    height="250px" width="100%" alt="Languages" />
+  <img src="./public/taka-projects.png"     height="250px" width="100%" alt="Projects" />
+  <img src="./public/taka-tech.png"        height="250px" width="100%" alt="Tech Stack" />
 </p>
 
 <p align="center"><em>Generated automatically by <a href="https://github.com/Rtarun3606k/TakaTime">TakaTime</a></em></p>
