@@ -3,13 +3,20 @@
 <h2 align="font-bold">TakaTime Weekly Report</h2>
 
 <p align="center">
-  <img src="./public/taka-time.png"          width="100%" alt="Time Stats" />
-  <div style="display: grid; grid-template-columns: repeat(2, 1fr);">
-    <img src="./public/taka-languages30.png"   width="100%" height="250px" alt="Languages" />
-    <img src="./public/taka-projects30.png"    width="100%" height="250px" alt="Projects" />
-    <img src="./public/taka-languages.png"     width="100%" height="250px" alt="Languages" />
-    <img src="./public/taka-projects.png"      width="100%" height="250px" alt="Projects" />
-  </div>
+  <img src="./public/taka-time.png" width="100%" alt="Time Stats" />
+  <table style="height: 50%; width: 100%;">
+    <tbody>
+        <tr>
+            <td><img src="./public/taka-languages30.png"   width="100%" alt="Languages" /></td>
+            <td><img src="./public/taka-projects30.png"    width="100%" alt="Projects" /></td>
+        </tr>
+        <tr>
+            <td><img src="./public/taka-languages.png"     width="100%" alt="Languages" /></td>
+            <td><img src="./public/taka-projects.png"      width="100%" alt="Projects" /></td>
+        </tr>
+    </tbody>
+   
+  </table>
   <img src="./public/taka-tech.png"          width="100%" alt="Tech Stack" />
 </p>
 
