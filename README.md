@@ -2,7 +2,7 @@
   
 <h2 align="font-bold">TakaTime Weekly Report</h2>
 
-<p style="display: grid; grid-template-columns: repeat(2, 1fr);">
+<p style="display: grid; grid-template-columns: repeat(3, 1fr);">
   <img src="./public/taka-time.png"        height="300px" width="100%" alt="Time Stats" />
   <img src="./public/taka-languages30.png"  height="300px" width="100%" alt="Languages" />
   <img src="./public/taka-projects30.png"   height="300px" width="100%" alt="Projects" />
